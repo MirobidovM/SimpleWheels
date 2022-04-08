@@ -42,42 +42,45 @@
     position: relative;
     font-size: 28px;
   }
-}
 
-.simple__text {
-  font-family: "Roboto";
-  width: 530px;
-  font-weight: 400;
-  opacity: 0.6;
-  margin-bottom: 30px;
-}
-.simple__list {
-  display: flex;
-  flex-direction: column;
-}
-.simple__item {
-  display: flex;
-  margin-bottom: 20px;
-}
-.simple__item-title {
-  font-family: "Roboto";
-  font-weight: 500;
-  opacity: 0.7;
-  margin-right: auto;
-}
+  &__text {
+    font-family: "Roboto";
+    width: 530px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-bottom: 30px;
+  }
 
-.simple__item-title-total {
-  font-family: "Roboto";
-  font-weight: 700;
-  opacity: 0.7;
-  font-size: 22px;
-  margin-right: auto;
-}
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
 
-.simple__price {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 22px;
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__item-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    opacity: 0.7;
+    margin-right: auto;
+  }
+
+  &__item-title-total {
+    font-family: "Roboto";
+    font-weight: 700;
+    opacity: 0.7;
+    font-size: 22px;
+    margin-right: auto;
+  }
+
+  &__price {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 22px;
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
