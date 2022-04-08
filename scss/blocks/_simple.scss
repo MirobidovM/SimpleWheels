@@ -16,32 +16,32 @@
     background-position: center bottom;
     background-size: contain;
   }
-}
 
-.simple__wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
 
-.simple__link {
-  border: 1px solid $gray-color;
-  padding: 10px;
-  border-radius: 50%;
-  transition: 0.3s ease;
-}
+  &__link {
+    border: 1px solid $gray-color;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
 
-.simple__link:hover {
-  box-shadow: 1px 1px 10px 2px $gray-color;
-}
+  &__link:hover {
+    box-shadow: 1px 1px 10px 2px $gray-color;
+  }
 
-.simple__title {
-  font-family: "Roboto";
-  text-align: left;
-  font-weight: 700;
-  position: relative;
-  font-size: 28px;
+  &__title {
+    font-family: "Roboto";
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+    font-size: 28px;
+  }
 }
 
 .simple__text {
