@@ -1,0 +1,92 @@
+.simple {
+  &__container {
+    padding-top: 30px;
+    padding-bottom: 190px;
+    padding-left: 65px;
+    padding-right: 60px;
+    margin-top: 100px;
+    max-width: 650px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: $white-color;
+    box-shadow: 6px 8px -1px 6px rgb(0, 0, 0);
+    background-image: url(../../img/bicycle.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+  }
+}
+
+.simple__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.simple__link {
+  border: 1px solid $gray-color;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.simple__link:hover {
+  box-shadow: 1px 1px 10px 2px $gray-color;
+}
+
+.simple__title {
+  font-family: "Roboto";
+  text-align: left;
+  font-weight: 700;
+  position: relative;
+  font-size: 28px;
+}
+
+.simple__text {
+  font-family: "Roboto";
+  width: 530px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.simple__list {
+  display: flex;
+  flex-direction: column;
+}
+.simple__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.simple__item-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  opacity: 0.7;
+  margin-right: auto;
+}
+
+.simple__item-title-total {
+  font-family: "Roboto";
+  font-weight: 700;
+  opacity: 0.7;
+  font-size: 22px;
+  margin-right: auto;
+}
+
+.simple__price {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 22px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .simple__container {
+    background-image: url(../../img/bicycle@2x.png);
+  }
+}
