@@ -11,7 +11,7 @@
     flex-direction: column;
     background-color: $white-color;
     box-shadow: 6px 8px -1px 6px rgb(0, 0, 0);
-    background-image: url(../../img/bicycle.png);
+    background-image: url(../img/bicycle.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
@@ -90,6 +90,6 @@
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .simple__container {
-    background-image: url(../../img/bicycle@2x.png);
+    background-image: url(../img/bicycle@2x.png);
   }
 }
